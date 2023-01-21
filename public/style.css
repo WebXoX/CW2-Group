@@ -1,0 +1,25 @@
+body{
+    height: 700px;
+    /* width: 800px; */
+}
+.content{
+    height: inherit;
+    position: relative;
+}
+#store{
+    margin: 0;
+    position: absolute;
+    /* right: 50%; */
+    left: 20%;
+    top: 40%;
+   display: grid;
+   justify-items: center;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap:50px ;  
+ }
+
+ #product{
+    border: solid black 4px;
+    padding: 10px;
+ }
+ 
