@@ -1,8 +1,10 @@
 # CW2-Group <img src="https://user-images.githubusercontent.com/97600250/214095303-f1c64d45-f289-492e-a4ee-4e418f015f0c.png" alt="drawing" style="width:100px;"/>
 
 **A Group project to showcase the interaction between a client-side Vue.js application and a server-side <br /> Express (Node.js) application using the Fetch API for communication** <br />
+<p align="center">
 <img src="https://user-images.githubusercontent.com/97600250/214097142-2046604d-9ba9-4e4d-9a07-d8aede78edfa.png" alt="drawing" style="width:50px;"/>
 <img src="https://user-images.githubusercontent.com/97600250/214097785-fb9d784a-6624-4312-a332-5399cdfe7b9e.png" alt="drawing" style="width:50px;"/>
+</p>
 
 ### GithubRepo: https://github.com/WebXoX/CW2-Group/tree/main
 ### GithubPage:  https://webxox.github.io/CW2-Group/public/index.html
@@ -17,8 +19,7 @@
 * **Install the following modules:** 
 
 ```
-      npm i express![download](https://user-images.githubusercontent.com/97600250/214095248-8dfbbd03-c704-42b7-b2f9-ebae73af76db.jpg)
-
+      npm i express
       npm i cors
 ```
 * **Run the server:**
