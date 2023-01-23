@@ -1,12 +1,13 @@
-const cors = require("cors");
-const express = require("express");
+const cors = require("cors"); // importing cors module for relaxing api security
+const express = require("express"); // importing express
 
-const port = 3000;
+const port = 3000; // setting up the port
 
-const app = express();
-app.use(cors());
-app.use(express.static('public'));
+const app = express(); // setting up express app
+app.use(cors()); // using cors
+app.use(express.static("public")); // setting
 
+// creating courses array
 const courses = [
   { topic: "Math", location: "Hendon", price: 100 },
   { topic: "Math", location: "Colindale", price: 80 },
@@ -14,17 +15,20 @@ const courses = [
   { topic: "Math", location: "Golders Green", price: 120 },
 ];
 
-const user = [ {email: "jomama@email.com", password: "pass"}]
+// creating user array
+const user = [{ email: "user@email.com", password: "mypassword" }];
+
+// setting up response for get request
 app.get("/lessons", function (req, res) {
-    res.send(JSON.stringify(courses));
-  });
+  res.send(JSON.stringify(courses));
+});
 
+// setting up response for get request
 app.get("/users", function (req, res) {
-    res.send(JSON.stringify(user));
-  });
+  res.send(JSON.stringify(user));
+});
 
+// setting up the port
 app.listen(3000, () => {
-    console.log(`Server running at http://localhost:${port}`);
-  });
-
-
+  console.log(`Server running at http://localhost:${port}`);
+});
