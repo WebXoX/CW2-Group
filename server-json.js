@@ -5,7 +5,7 @@ const port = 3000; // setting up the port
 
 const app = express(); // setting up express app
 app.use(cors()); // using cors
-app.use(express.static("public")); // setting
+app.use(express.static("public")); // setting public directory as static content
 
 // creating courses array
 const courses = [
